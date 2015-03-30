@@ -117,10 +117,10 @@ public class ModuleIntegrationTest extends WrappingServerIntegrationTest {
             assertEquals("Adam", recoForLuanne.get(1).getItem().getProperty("name"));
             assertEquals(12, recoForLuanne.get(1).getScore().getTotalScore(), 0.5);
 
-            assertEquals("Jim", recoForLuanne.get(2).getItem().getProperty("name"));
+            assertEquals("Vince", recoForLuanne.get(2).getItem().getProperty("name"));
             assertEquals(8, recoForLuanne.get(2).getScore().getTotalScore(), 0.5);
 
-            assertEquals("Vince", recoForLuanne.get(3).getItem().getProperty("name"));
+            assertEquals("Jim", recoForLuanne.get(3).getItem().getProperty("name"));
             assertEquals(8, recoForLuanne.get(3).getScore().getTotalScore(), 0.5);
 
             tx.success();
@@ -194,10 +194,10 @@ public class ModuleIntegrationTest extends WrappingServerIntegrationTest {
             assertEquals("Adam", recoForLuanne.get(1).getItem().getProperty("name"));
             assertEquals(12, recoForLuanne.get(1).getScore().getTotalScore(), 0.5);
 
-            assertEquals("Jim", recoForLuanne.get(2).getItem().getProperty("name"));
+            assertEquals("Vince", recoForLuanne.get(2).getItem().getProperty("name"));
             assertEquals(8, recoForLuanne.get(2).getScore().getTotalScore(), 0.5);
 
-            assertEquals("Vince", recoForLuanne.get(3).getItem().getProperty("name"));
+            assertEquals("Jim", recoForLuanne.get(3).getItem().getProperty("name"));
             assertEquals(8, recoForLuanne.get(3).getScore().getTotalScore(), 0.5);
 
             tx.success();
