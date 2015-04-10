@@ -14,6 +14,7 @@
  * <http://www.gnu.org/licenses/>.
  */
 
+
 package com.graphaware.reco.neo4j.module;
 
 import com.graphaware.reco.generic.result.Recommendation;
